@@ -1,0 +1,22 @@
+<h1>The Greetings Website</h1>
+<label>Hey there! what's your name?</label>
+<input id="name">
+<button onclick="alert('hello esha')">Greet Me</button>
+<button onclick="showGreeting()"> greet me 1</button>
+<button onclick="showGreetingPart()"> greet me 2</button>
+<script>
+    function showGreeting(){
+       var user_name = document.getElementById('name').value
+		var custom_greeting = "Good morning " + user_name 
+		alert(custom_greeting)
+    }
+    function showGreetingPart()
+    {
+       var user_name = document.getElementById('name').value
+		var custom_greeting = "Good evening " + user_name 
+		alert(custom_greeting)
+
+    }
+    
+
+</script>
